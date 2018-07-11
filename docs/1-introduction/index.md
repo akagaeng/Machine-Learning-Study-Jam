@@ -1,5 +1,3 @@
-{% include header.md %}
-
 # 1-introduction
 
 index.md
