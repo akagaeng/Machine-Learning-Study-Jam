@@ -2,7 +2,7 @@
 
 ## Introduction
 - [머신러닝 단기집중과정(Machine Learning Crash Course: MLCC)](https://developers.google.com/machine-learning/crash-course/) 스터디를 진행하며 나름대로 정리를 하는 공간입니다.
-- [홈페이지]((https://akagaeng.github.io/Machine-Learning-Study-Jam/)) 또는 [docs/index.md](docs/index.md) 에서 자세한 내용을 보실 수 있습니다.
+- [홈페이지](https://akagaeng.github.io/Machine-Learning-Study-Jam/) 또는 [docs/index.md](docs/index.md) 에서 자세한 내용을 보실 수 있습니다.
 
 ## 홈페이지
 - [https://akagaeng.github.io/Machine-Learning-Study-Jam/](https://akagaeng.github.io/Machine-Learning-Study-Jam/)
