@@ -16,6 +16,12 @@
 - 머신머신 스터디 잼 가이드(개강행사 자료)
   + [shared link](https://docs.google.com/presentation/d/1-Wiqci7hGBhwlq2edUxb9T2spoP8JlihmFFsnU7Vk-k/edit?pli=1#slide=id.g3d483976ff_1_346) /
   [download pdf](https://github.com/akagaeng/Machine-Learning-Study-Jam/blob/master/src/etc/ML-Study-Jam-Kick-off-Recap-Guild-Jul-10-18.pdf)
+- [Colaboratory 로컬 환경에 설치하기](https://github.com/google/eng-edu/blob/master/ml/cc/README.md)
+- [Pandas 라이브러리 빠른 가이드](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb?hl=ko)
+- Tensorflow 기본
+  + [TensorFlow Hello World](https://colab.research.google.com/notebooks/mlcc/hello_world.ipynb?hl=ko)
+  + [텐서플로우 프로그래밍 개념](https://colab.research.google.com/notebooks/mlcc/tensorflow_programming_concepts.ipynb?hl=ko)
+  + [텐서 생성하고 조정하기](https://colab.research.google.com/notebooks/mlcc/creating_and_manipulating_tensors.ipynb?hl=ko)
 
 ## 디렉토리 구조
 - [docs/](docs/)
