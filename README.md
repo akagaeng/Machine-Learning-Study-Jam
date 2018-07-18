@@ -44,7 +44,6 @@
 * 발표할 부분
 
 ## My Study Notes
-- [Week 0. Introduction](0-introduction/index.md)
 - [Week 1. ML concepts](1-ML-concepts/index.md)
 - [Week 2. ML engineering](2-ML-engineering/index.md)
 - [Week 3. ML real world examples](3-ML-real-world-examples/index.md)
