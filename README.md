@@ -41,10 +41,10 @@
 |Chapter 3. <br>ML 실무 활용 사례|-|-|-|암발병예측(5분)<br>18세기문학(5분)<br>\*실무활용가이드라인(2분)|
 |Meeting| 7/19 (60분) | 7/26 (60분) | 8/2 (60분) | 8/9 (60분) |
 
-<div style="text-align:right">* 스터디에서 발표할 부분</div>
+* 발표할 부분
 
 ## My Study Notes
-- [Week 1. Introduction](1-introduction/index.md)
-- [Week 2. ML concepts](2-ML-concepts/index.md)
-- [Week 3. ML engineering](3-ML-engineering/index.md)
-- [Week 4. ML real world examples](4-ML-real-world-examples/index.md)
+- [Week 0. Introduction](0-introduction/index.md)
+- [Week 1. ML concepts](1-ML-concepts/index.md)
+- [Week 2. ML engineering](2-ML-engineering/index.md)
+- [Week 3. ML real world examples](3-ML-real-world-examples/index.md)
