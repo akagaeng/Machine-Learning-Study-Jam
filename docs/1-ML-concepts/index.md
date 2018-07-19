@@ -230,8 +230,8 @@ MSE = 1/N * sum( (y-prediction(x))^2 )
 #### tf.estimator API
 - 추상화가 많이 되어있어 코딩 라인 수가 줄어든다.
 
-#### 실습
-1. [Pandas 간단 소개](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb?hl=ko)
+### 실습
+#### 1. [Pandas 간단 소개](https://colab.research.google.com/notebooks/mlcc/intro_to_pandas.ipynb?hl=ko)
   - pd.DataFrame: 이름 지정된 열이 포함된 관계형 데이터 테이블
   - pd.Series: 하나의 열. DataFrame에는 하나 이상의 Series와 각 Series의 이름이 포함된다.
   - pd.read_csv: csv파일에서 읽어오기
@@ -276,28 +276,27 @@ reindex method에는 index의 start와 stop 벗어나는 값도 허용
 벗어난 index는 NaN으로 표시된다.
 ```
 
-2. [텐서플로우 첫걸음](https://colab.research.google.com/notebooks/mlcc/first_steps_with_tensor_flow.ipynb?hl=ko)
+#### 2. [텐서플로우 첫걸음](https://colab.research.google.com/notebooks/mlcc/first_steps_with_tensor_flow.ipynb?hl=ko)
 
-TF 코드의 전반적인 흐름
-1. 설정
-- 필요한 라이브러리 로드
-  + numpy, tensorflow, pandas, metplotlib, ...
-- 데이터세트 로드
-  + pd.read_csv("source")
-2. 데이터 조사
-- 데이터를 미리 확인
-  + Dataframe.describe()
-3. 모델 생성
-  1. 특성 정의 및 특성 열 구성(total_rooms: 방의 개수)
-  2. 타겟 정의(집값 중간값: median_house_value)
-  3. LinearRegressor 구성(선형회귀모델)
-  4. 입력 함수 정의(한번에 몇개씩 넣을지, 섞을지, 반복을 얼마나할지 등 지정)
-  5. 모델 학습(train methods)
-  6. 모델 평가(테스트셋으로 오차(정확도) 확인, 샘플추출하여 그래프 확인)
-4. 초매개변수 조정(learning rate, step, batch size, input feature 변경, ...)
+#### TF 코드의 전반적인 흐름
+  1. 설정
+    - 필요한 라이브러리 로드
+      + numpy, tensorflow, pandas, metplotlib, ...
+    - 데이터세트 로드
+      + pd.read_csv("source")
+  2. 데이터 조사
+    - 데이터를 미리 확인
+      + Dataframe.describe()
+  3. 모델 생성
+    1. 특성 정의 및 특성 열 구성(total_rooms: 방의 개수)
+    2. 타겟 정의(집값 중간값: median_house_value)
+    3. LinearRegressor 구성(선형회귀모델)
+    4. 입력 함수 정의(한번에 몇개씩 넣을지, 섞을지, 반복을 얼마나할지 등 지정)
+    5. 모델 학습(train methods)
+    6. 모델 평가(테스트셋으로 오차(정확도) 확인, 샘플추출하여 그래프 확인)
+  4. 초매개변수 조정(learning rate, step, batch size, input feature 변경, ...)
 
-
-3. [합성 특성과 이상점](https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb?hl=ko)
+#### 3. [합성 특성과 이상점](https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb?hl=ko)
 
 데이터 학습의 정확도 향상을 위한 전처리 과정
 
