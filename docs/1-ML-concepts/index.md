@@ -1,3 +1,22 @@
+- [1-1.ML소개](1-1.Introduction to Machine Learning.md)(3분)
+- [1-2.ML문제로 표현하기](1-2.Framing.md)(15분)
+- [1-3.ML문제로 전환하기](1-3.Descending into ML.md)(20분)
+- [1-4.손실 줄이기](1-4.Reducing Loss.md)(60분)
+- [1-5.TF 첫걸음](1-5.First Steps with TensorFlow.md)(60분)
+- [1-6.일반화](1-6.Generalization.md)(15분)
+- [1-7.학습 및 평가세트](1-7.Training and Test Sets.md)(25분)
+- [1-8.검증](1-8.Validation.md)(40분)
+- [1-9.표현](1-9.Representation.md)(65분)
+- [1-10.특성 교차](1-10.Feature Crosses.md)(70분)
+- [1-11.정규화 단순성](1-11.Regularization for Simplicity.md)(40분)
+- [1-12.로지스틱 회귀](1-12.Logistic Regression.md)(20분)
+- [1-13.분류](1-13.Classification.md)(90분)
+- [1-14.정규화 희소성](1-14.Regularization for Sparsity.md)(45분)
+- [1-15.신경망 소개](1-15.Introduction to Neural Networks.md)(55분)
+- [1-16.신경망 학습](1-16.Training Neural Networks.md)(40분)
+- [1-17.다중 클래스 신경망](1-17.Multi-Class Neural Networks.md)(50분)
+- [1-18.임베딩](1-18.Embeddings.md)(80분)
+
 # 1. ML 개념
 
 ## ML 소개
