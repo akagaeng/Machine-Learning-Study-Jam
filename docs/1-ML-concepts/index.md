@@ -257,32 +257,33 @@ MSE = 1/N * sum( (y-prediction(x))^2 )
   - Dataframe.describe(): dataframe의 내용 표로 보여줌(Dataframe.head(): 처음 몇개만 보여줌)
   - Dataframe.hist('title'): dataframe의 히스토그램을 보여줌('': 표 제목)
   - Python dict/list로 Dataframe 접근 가능(일종의 배열 iterable)
+
+```
+cities = pd.DataFrame({ 'City name': city_names, 'Population': population })
+print type(cities['City name'])
+cities['City name'] // City name이라는 열의 전체 데이터 (js의 object랑 비슷한듯)
+
+<결과>
+0    San Francisco
+1         San Jose
+2       Sacramento
+```
   
-  ```
-  cities = pd.DataFrame({ 'City name': city_names, 'Population': population })
-  print type(cities['City name'])
-  cities['City name'] // City name이라는 열의 전체 데이터 (js의 object랑 비슷한듯)
-  <결과>
-    0    San Francisco
-    1         San Jose
-    2       Sacramento
-  ```
+- python 기본 산술연산을 Series에 적용
   
-  - python 기본 산술연산을 Series에 적용
+```
+population / 1000
+<결과>
+전체 series의 데이터가 다 1000으로 나누어짐
+```
   
-  ```
-  population / 1000
-  <결과>
-  전체 series의 데이터가 다 1000으로 나누어짐
-  ```
-  
-  - 복잡한 열 변환은 Series.apply 활용
-    + lambda 함수 허용(map함수와 유사)
-  - Dataframes 수정: Dataframe에 새로운 값을 할당
-  - index
-    + Dataframe, series는 행에 index가 있음
-    + index method로 start, stop, step 속성 확인 가능
-    + reindex method[index, index, ...]로 재정렬 가능
+- 복잡한 열 변환은 Series.apply 활용
+  + lambda 함수 허용(map함수와 유사)
+- Dataframes 수정: Dataframe에 새로운 값을 할당
+- index
+  + Dataframe, series는 행에 index가 있음
+  + index method로 start, stop, step 속성 확인 가능
+  + reindex method[index, index, ...]로 재정렬 가능
 
 실습 #1
 
@@ -304,22 +305,22 @@ reindex method에는 index의 start와 stop 벗어나는 값도 허용
 #### 2. [텐서플로우 첫걸음](https://colab.research.google.com/notebooks/mlcc/first_steps_with_tensor_flow.ipynb?hl=ko)
 
 #### TF 코드의 전반적인 흐름
-  1. 설정
-    - 필요한 라이브러리 로드
-      + numpy, tensorflow, pandas, metplotlib, ...
-    - 데이터세트 로드
-      + pd.read_csv("source")
-  2. 데이터 조사
-    - 데이터를 미리 확인
-      + Dataframe.describe()
-  3. 모델 생성
-    1. 특성 정의 및 특성 열 구성(total_rooms: 방의 개수)
-    2. 타겟 정의(집값 중간값: median_house_value)
-    3. LinearRegressor 구성(선형회귀모델)
-    4. 입력 함수 정의(한번에 몇개씩 넣을지, 섞을지, 반복을 얼마나할지 등 지정)
-    5. 모델 학습(train methods)
-    6. 모델 평가(테스트셋으로 오차(정확도) 확인, 샘플추출하여 그래프 확인)
-  4. 초매개변수 조정(learning rate, step, batch size, input feature 변경, ...)
+1. 설정
+  - 필요한 라이브러리 로드
+    + numpy, tensorflow, pandas, metplotlib, ...
+  - 데이터세트 로드
+    + pd.read_csv("source")
+2. 데이터 조사
+  - 데이터를 미리 확인
+    + Dataframe.describe()
+3. 모델 생성
+  1. 특성 정의 및 특성 열 구성(total_rooms: 방의 개수)
+  2. 타겟 정의(집값 중간값: median_house_value)
+  3. LinearRegressor 구성(선형회귀모델)
+  4. 입력 함수 정의(한번에 몇개씩 넣을지, 섞을지, 반복을 얼마나할지 등 지정)
+  5. 모델 학습(train methods)
+  6. 모델 평가(테스트셋으로 오차(정확도) 확인, 샘플추출하여 그래프 확인)
+4. 초매개변수 조정(learning rate, step, batch size, input feature 변경, ...)
 
 #### 3. [합성 특성과 이상점](https://colab.research.google.com/notebooks/mlcc/synthetic_features_and_outliers.ipynb?hl=ko)
 
@@ -437,4 +438,3 @@ Occam의 면도날 법칙
 ==> 학습/테스트 데이터 비율 높아질수록 차이가 작아짐
 
 ==> 배치 크기 늘리면 테스트 손실이 학습 손실보다 낮아짐
-
