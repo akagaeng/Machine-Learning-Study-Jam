@@ -27,5 +27,5 @@
 - [1-16. 신경망 학습](docs/1-16.Training-Neural-Networks)
 - [1-17. 다중 클래스 신경망](docs/1-17.Multi-Class-Neural-Networks)
 - [1-18. 임베딩](docs/1-18.Embeddings)
-- [2. ML engineering](docs/2-ML-engineering)
-- [3. ML real world examples](docs/3-ML-real-world-examples)
+- [2. ML engineering](docs/2.ML-engineering)
+- [3. ML real world examples](docs/3.ML-real-world-examples)
