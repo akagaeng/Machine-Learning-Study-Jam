@@ -5,7 +5,7 @@
 - [머신러닝 단기집중과정](https://developers.google.com/machine-learning/crash-course/) 스터디 내용을 정리하였습니다.
 
 ## My Study Notes
-- [1-01. ML소개](docs/1-01.Introduction-to-Machine-Learning)
+- [1-01. ML소개](docs/1-01.Introduction-to-Machine-Learning.md)
 - [1-02. ML문제로 표현하기](docs/1-02.Framing)
 - [1-03. ML문제로 전환하기](docs/1-03.Descending-into-ML)
 - [1-04. 손실 줄이기](docs/1-04.Reducing-Loss)
