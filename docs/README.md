@@ -1,5 +1,7 @@
 # Welcome to Machine Learning Study Jam!
-> [https://akagaeng.github.io/Machine-Learning-Study-Jam/](https://akagaeng.github.io/Machine-Learning-Study-Jam/)
+- [https://akagaeng.github.io/Machine-Learning-Study-Jam/](https://akagaeng.github.io/Machine-Learning-Study-Jam/)
+- [https://github.com/akagaeng/Machine-Learning-Study-Jam/](https://github.com/akagaeng/Machine-Learning-Study-Jam/)
+
 
 ## Introduction
 - [머신러닝 단기집중과정](https://developers.google.com/machine-learning/crash-course/) 스터디 내용을 정리하였습니다.
