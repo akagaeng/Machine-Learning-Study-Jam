@@ -1,4 +1,3 @@
-# My Study Notes
 # Chapter 1
 - [1-01. ML소개](1-01.Introduction-to-Machine-Learning.md)
 - [1-02. ML문제로 표현하기](1-02.Framing.md)
