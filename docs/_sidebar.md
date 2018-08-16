@@ -1,4 +1,3 @@
-# Chapter 1
 - [1-01. ML소개](1-01.Introduction-to-Machine-Learning.md)
 - [1-02. ML문제로 표현하기](1-02.Framing.md)
 - [1-03. ML문제로 전환하기](1-03.Descending-into-ML.md)
@@ -17,7 +16,5 @@
 - [1-16. 신경망 학습](1-16.Training-Neural-Networks.md)
 - [1-17. 다중 클래스 신경망](1-17.Multi-Class-Neural-Networks.md)
 - [1-18. 임베딩](1-18.Embeddings.md)
-# Chapter 2
 - [2. ML engineering](2.ML-engineering.md)
-# Chapter 3
 - [3. ML real world examples](3.ML-real-world-examples.md)
