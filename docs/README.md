@@ -5,6 +5,9 @@
 
 ## Introduction
 - [머신러닝 단기집중과정](https://developers.google.com/machine-learning/crash-course/) 스터디 내용을 정리하였습니다.
+  + 수업 내용 중에서 중요하다고 생각하는 부분을 메모
+  + 누락된 내용은 일부 보충
+  + 이해하기 힘든 부분은 이해한 내용을 바탕으로 다시 정리
 
 ## Resources
 - [Google 머신러닝 단기집중과정(Machine Learning Crash Course: MLCC): 텐서플로우 API 사용](https://developers.google.com/machine-learning/crash-course/)
